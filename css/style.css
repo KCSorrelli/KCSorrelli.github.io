@@ -65,6 +65,8 @@ img {
 	width: 100%;
 }
 
+
+
 a:focus, a:hover {
 	text-decoration: none;
 	outline: none;
@@ -358,7 +360,7 @@ a:focus, a:hover {
 
 .wthreeskills-grid-2 {	
 	line-height: 23px;
-	font-size: 18px;
+	font-size: 17px;
 	padding: 0 0px;
 	letter-spacing: 1px;
 }
@@ -678,6 +680,7 @@ li.aitsaitsresumewthreeli-1 {
 
 /*-- Work --*/
 
+
 .work-left {
 	text-align: right;
 	padding: 1em 13px 0 0;
@@ -733,8 +736,8 @@ li.aitsaitsresumewthreeli-1 {
 }
 
 .work-info p {
-	font-size: 17px;
-	line-height: 23px;
+	font-size: 14px;
+	line-height: 16px;
 	letter-spacing: 1px;
 }
 
@@ -743,8 +746,6 @@ li.aitsaitsresumewthreeli-1 {
 
 
 /*-- Portfolio --*/
-
-
 
 .portfolio {
 	padding: 50px 0;
@@ -873,6 +874,9 @@ ul.simplefilter {
 }
 
 .portfolio figure {
+	object-fit: cover;
+  	width: 380px;
+	height: 211.42px;
 	margin: 0;
 	padding: 0;
 	position: relative;
