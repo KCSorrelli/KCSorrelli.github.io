@@ -359,10 +359,10 @@ a:focus, a:hover {
 }
 
 .wthreeskills-grid-2 {	
-	line-height: 23px;
-	font-size: 17px;
+	line-height: 20px;
+	font-size: 18px;
 	padding: 0 0px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 }
 
 .wthreeskills-grid-1 h4 {
@@ -606,6 +606,7 @@ a:focus, a:hover {
 
 ul#myList {
 	margin-bottom: 3em;
+	list-style-type: none;
 }
 
 #loadMore {
@@ -739,6 +740,8 @@ li.aitsaitsresumewthreeli-1 {
 	font-size: 14px;
 	line-height: 16px;
 	letter-spacing: 1px;
+	resize: horizontal;
+  	overflow: auto;
 }
 
 /*-- //Work --*/
@@ -963,7 +966,7 @@ ul.simplefilter {
 
 
 
-/*-- Clients --*/
+/*-- Interests --*/
 
 .agileinfosclients {
 	background: url("../images/interests.jpg");
@@ -974,7 +977,7 @@ ul.simplefilter {
 	color: #FFF
 }
 
-/*-- //Clients --*/
+/*-- Interests --*/
 
 
 
@@ -1179,7 +1182,7 @@ form.contact_form {
 		width: 33%;
 	}
 	.agileabout-grid p {
-		line-height: 35px;
+		line-height: 25px;
 	}
 	.agileabout-grid-3 ul li:nth-child(5) .li3 {
 		padding-right: 0;
@@ -1252,7 +1255,7 @@ form.contact_form {
 		padding-top: 0;
 	}
 	.agileabout-grid p {
-		line-height: 23px;
+		line-height: 20px;
 	}
 	.wthreeskills-grid-1 h4 {
 		width: 45%;
@@ -1336,7 +1339,7 @@ form.contact_form {
 		width: 41%;
 	}
 	.agileabout-grid p {
-		line-height: 25px;
+		line-height: 16px;
 		font-size: 14px;
 	}
 	.agileabout-grid-2-image {
@@ -1360,7 +1363,7 @@ form.contact_form {
 	}
 	.work-info p {
 		font-size: 14px;
-		line-height: 25px;
+		line-height: 16px;
 	}
 	.aitsresumewthree h4.title2 {
 		width: 17%;
@@ -1425,7 +1428,7 @@ form.contact_form {
 		padding-top: 20px;
 	}
 	.resp-tab-content p {
-		line-height: 26px;
+		line-height: 16px;
 		font-size: 14px;
 	}
 	.w3lsstatsaits-grid {
@@ -1433,7 +1436,7 @@ form.contact_form {
 		float: left;
 	}
 	.w3lsstatsaits-info p {
-		font-size: 20px;
+		font-size: 14px;
 	}
 	.work-grid {
 		width: 50%;
@@ -1729,7 +1732,7 @@ form.contact_form {
 		width: 88%;
 	}
 	.resp-tab-content p {
-		line-height: 25px;
+		line-height: 16px;
 		padding: 0 0 0 5px;
 	}
 	.w3lsstatsaitsstats {
