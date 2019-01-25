@@ -349,9 +349,9 @@ a:focus, a:hover {
 
 a[download] {
 	background-color: transparent;
-	border-bottom: 1px solid rgba(8, 8, 8, 0.747);
-	box-shadow: inset 0 -0.4rem 0 rgba(8, 8, 8, 0.747);
-	color: rgba(8, 8, 8, 0.747);
+	border-bottom: 1px solid rgba(215, 246, 158, 0.65);
+	box-shadow: inset 0 -0.4rem 0 rgba(215, 246, 158, 0.65);
+	color: #d7f69e;
 	font-size: 1.25em;
 	font-weight: 500;
 	letter-spacing: 0.025em;
@@ -369,14 +369,14 @@ a[download] {
 	}
   }
   
-  body {
+  .body {
 	align-items: center;
 	background-color: #495057;
 	background: radial-gradient(ellipse at center, #495057 0%, #33383d 50%, #1b1e21 100%);
 	color: #dee2e6;
 	display: flex;
-	font-family: 'Helvetica';
-	font-size: 16px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
 	font-weight: 400;
 	height: 100vh;
 	justify-content: center;
@@ -392,7 +392,7 @@ a[download] {
 	display: flex;
 	width: 90vw;
   }
-  .resume:hover .resume__picture {
+  .resume:hover .resume__poster {
 	-webkit-transform: rotate(0);
 			transform: rotate(0);
 	-webkit-transform: scale(1.15);
@@ -402,21 +402,21 @@ a[download] {
 	transition: transform ease-in-out 500ms, -webkit-transform ease-in-out 500ms;
   }
   @media screen and (prefers-reduced-motion: reduce) {
-	.resume:hover .resume__picture {
+	resume:hover .resume__poster {
 	  -webkit-transform: initial;
 			  transform: initial;
 	  transition: none;
 	}
   }
   @media screen and (min-width: 30em) {
-	.resume {
+	resume {
 	  width: 80vw;
 	}
   }
   .resume p {
 	margin: 0;
   }
-  .resume__picture {
+  .resume__poster {
 	box-shadow: 0 10px 30px -15px rgba(30, 33, 36, 0.85);
 	height: 8rem;
 	width: auto;
@@ -427,12 +427,12 @@ a[download] {
 	transition: transform ease-in-out 125ms, -webkit-transform ease-in-out 125ms;
   }
   @media screen and (min-width: 30em) {
-	.resume__picture {
+	.resume__poster {
 	  height: 14rem;
 	}
   }
   @media screen and (prefers-reduced-motion: reduce) {
-	.resume__picture {
+	.resume__poster {
 	  -webkit-transform: initial;
 			  transform: initial;
 	  transition: none;
@@ -443,7 +443,7 @@ a[download] {
 	flex-direction: column;
 	justify-content: center;
 	line-height: 1.25;
-	margin-left: 1rem;
+	margin-left: 1.5rem;
 	max-width: 30ch;
   }
   @media screen and (min-width: 30em) {
@@ -453,13 +453,11 @@ a[download] {
   }
   .resume__download-duration {
 	padding-top: 0.75em;
-	
   }
-
   .resume small {
 	font-size: 0.85em;
   }
-
+  
 /*-- //About --*/
 
 
