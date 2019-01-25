@@ -390,7 +390,7 @@ a[download] {
   
   .resume {
 	display: flex;
-	width: 90vw;
+	width: 40vw;
   }
   .resume:hover .resume__poster {
 	-webkit-transform: rotate(0);
