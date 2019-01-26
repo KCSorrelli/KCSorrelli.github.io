@@ -106,18 +106,23 @@ a:focus, a:hover {
 
 .header h2 {
 	position: absolute;
-	top: 45%;
+	top: 10%;
 	left: 0;
 	right: 0;
-	width: 35%;
+	width: 50%;
 	margin: 0 auto;
-	padding: 20px 0;
-	font-size: 25px;
-	letter-spacing: 2px;
+	padding: 10px 0;
+	font-size: 20px;
+	letter-spacing: 1px;
 	font-weight: 700;
 	color: #000;
 	background-color: #FFF;
 }
+
+small {
+	font-size: .5em;
+}
+
 
 /*-- Navigation --*/
 
@@ -989,7 +994,7 @@ ul.simplefilter {
 
 .portfolio figure {
 	object-fit: cover;
-  	width: 350px;
+  	width: 380px;
 	height: 211.42px;
 	margin: 0;
 	padding: 0;
