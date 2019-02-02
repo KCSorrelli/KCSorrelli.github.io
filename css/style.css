@@ -75,14 +75,7 @@ a:focus, a:hover {
 /*-- //Reset-Code --*/
 
 
-
-
-
 /*-- Index-Page-Styling --*/
-
-
-
-
 
 .header {
 	position: relative;
@@ -113,7 +106,7 @@ a:focus, a:hover {
 	margin: 0 auto;
 	padding: 10px 0;
 	font-size: 20px;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	font-weight: 700;
 	color: #000;
 	background-color: #FFF;
@@ -122,6 +115,7 @@ a:focus, a:hover {
 small {
 	font-size: .5em;
 }
+/*-- Index-Page-Styling --*/
 
 
 /*-- Navigation --*/
@@ -352,6 +346,10 @@ small {
 	color: #607D8B;
 }
 
+/*-- //About --*/
+
+/*-- resume download --*/
+
 a[download] {
 	background-color: transparent;
 	border-bottom: 1px solid rgba(215, 246, 158, 0.65);
@@ -462,10 +460,9 @@ a[download] {
   .resume small {
 	font-size: 0.85em;
   }
+
+/*-- resume download --*/
   
-/*-- //About --*/
-
-
 
 /*-- Skills --*/
 
@@ -820,7 +817,7 @@ li.aitsaitsresumewthreeli-1 {
 
 .work-info h4:before {
 	width: 0;
-	height: 0;
+	height: auto;
 	position: absolute;
 	content: '';
 	top: 7.5px;
@@ -857,11 +854,10 @@ li.aitsaitsresumewthreeli-1 {
 	line-height: 16px;
 	letter-spacing: 1px;
 	resize: horizontal;
-  	overflow: auto;
+	overflow: auto;
 }
 
 /*-- //Work --*/
-
 
 
 /*-- Portfolio --*/
@@ -945,7 +941,7 @@ ul.simplefilter {
 @media(max-width:991px) {
 	.filtr-item {
 		float: left;
-		width: 33.33%;
+		width: 100%;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding: 10px 13px;
@@ -956,7 +952,7 @@ ul.simplefilter {
 @media(max-width:768px) {
 	.filtr-item {
 		float: left;
-		width: 50%;
+		width: 100%;
 	}
 	.simplefilter li, .multifilter li, .sortandshuffle li {
 		padding: 8px 10px;
@@ -1433,10 +1429,10 @@ form.contact_form {
 		padding: 50px 0;
 	}
 	.header h2 {
-		top: 48%;
-		width: 35%;
-		padding: 15px 0;
-		font-size: 20px;
+		top: 45%;
+		width: 50%;
+		padding: 5px 0;
+		font-size: 18px;
 	}
 	.navigation {
 		padding: 0 150px;
@@ -1504,6 +1500,9 @@ form.contact_form {
 	}
 	.wthreeskills-grid-2 h4 {
 		width: 53%;
+	}
+	#owl-demo .item img {
+		width: 100%;
 	}
 }
 
@@ -1582,6 +1581,8 @@ form.contact_form {
 	.wthreeskills-grid-2 h4 {
 		width: 57%;
 	}
+	#owl-demo .item img {
+		margin-left: 15%;
 }
 
 @media screen and (max-width: 900px) {
@@ -1700,8 +1701,10 @@ form.contact_form {
 		padding: 30px 0;
 	}
 	.header h2 {
-		top: 45%;
-		width: 40%;
+		top: 40%;
+		width:65%;
+		font: 14px;
+		letter-spacing: .5px;
 	}
 	.navigation {
 		padding: 0 40px 0 10px;
@@ -1719,7 +1722,7 @@ form.contact_form {
 		margin-top: 33px;
 	}
 	.agileabout, .wthreeskills, .aitsresumewthree, .portfolio, .agileinfosclients, .contact {
-		padding: 50px 0;
+		padding: 25px 0;
 	}
 	.agileabout h2, .wthreeskills h3, .aitsresumewthree h3, .portfolio h3, .agileinfosclients h3, .wthreetestimonials h3, .contact h3 {
 		font-size: 35px;
@@ -1753,7 +1756,7 @@ form.contact_form {
 		width: 20.5%;
 	}
 	.work-grid {
-		height: 200px;
+		height: 500px;
 	}
 	.work-info h4 {
 		padding: 11px 30px 10px;
@@ -1776,6 +1779,8 @@ form.contact_form {
 	.portfolio figcaption h3 {
 		margin-top: 100px;
 	}
+	#owl-demo .item img {
+		margin-left: 15%;
 }
 
 @media screen and (max-width: 767px) {
@@ -1825,8 +1830,8 @@ form.contact_form {
 		font-size: 35px;
 	}
 	.header h2 {
-		width: 40%;
-		padding: 12px 0;
+		width: 50%;
+		padding: 12px 20;
 		font-size: 17px;
 	}
 	.navigation {
@@ -1870,7 +1875,8 @@ form.contact_form {
 		width: 74%;
 	}
 	.header h2 {
-		top: 50%;
+		top: 45%;
+		width: 65%;
 	}
 	.ch-info-wrap, .ch-info {
 		width: 75px;
@@ -2013,8 +2019,8 @@ form.contact_form {
 		width: 80%;
 	}
 	.header h2 {
-		width: 45%;
-		padding: 10px 0;
+		width: 75%;
+		padding: 5px 0;
 		font-size: 15px;
 	}
 	.ch-info-back h3 {
@@ -2056,7 +2062,7 @@ form.contact_form {
 		width: 38%;
 	}
 	.work-grid {
-		height: 220px;
+		height: 100%;
 	}
 	.portfolio figcaption h3 {
 		margin-top: 70px;
@@ -2172,7 +2178,7 @@ form.contact_form {
 		text-align: left;
 	}
 	.work-right {
-		height: 100px;
+		height: 300px;
 		text-align: right;
 		border: none;
 		padding: 0;
